@@ -37,3 +37,9 @@ a.blog.project__btn {
   height: 400px;
   width: 400px;
 }
+
+@media only screen and (max-width: 768px) {
+  img.project__img {
+    height: -webkit-fill-available;
+  }
+}
