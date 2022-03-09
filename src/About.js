@@ -48,7 +48,7 @@ function About() {
                 Time-management
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="https://drive.google.com/file/d/1mJJ_qhOujJl8puLnFLTZyfMm7FvzYnHV/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1ENny_5AkV34Izdx2a4VJ9q6w-t6tt6ky/view?usp=sharing" target="_blank">
                   <button className="about btn pointer">Download CV</button>
                 </a>
                 <a href="#Contact">

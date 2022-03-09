@@ -3,19 +3,22 @@ import emailjs from "emailjs-com";
 import "./Contact.css";
 
 function Contact() {
-  function sendEmail(e){
+  function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm('gmail','template_u55lkgo',e.target,'i5WCqY-18c8GzqZ0y')
-    .then((result)=>{
-      console.log(result.text);
-      window.alert('Message sent successfully.')
-    }, (error)=>{
-      window.alert(error.text);
-    });
-    e.target.reset()
-    
+    emailjs
+      .sendForm("gmail", "template_u55lkgo", e.target, "i5WCqY-18c8GzqZ0y")
+      .then(
+        (result) => {
+          console.log(result.text);
+          window.alert("Message sent successfully.");
+        },
+        (error) => {
+          window.alert(error.text);
+        }
+      );
+    e.target.reset();
   }
-  
+
   return (
     <div className="contact" id="Contact">
       <div className="heading">
@@ -26,32 +29,32 @@ function Contact() {
           <div className="contact__box">
             <div className="input__box">
               <form onSubmit={sendEmail}>
-              <input
-                type="text"
-                className="contact name"
-                placeholder="Your name *"
-                name="name"
-              />
-              <input
-                type="text"
-                className="contact email"
-                placeholder="Your Email *"
-                name="email"
-              />
-              <input
-                type="text"
-                className="contact subject"
-                placeholder="Write a Subject"
-                name="subject"
-              />
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Write Your message"
-              ></textarea>
-              <button className="btn contact pointer" type="submit">
-                Submit
-              </button>
+                <input
+                  type="text"
+                  className="contact name"
+                  placeholder="Your name *"
+                  name="name"
+                />
+                <input
+                  type="text"
+                  className="contact email"
+                  placeholder="Your Email *"
+                  name="email"
+                />
+                <input
+                  type="text"
+                  className="contact subject"
+                  placeholder="Write a Subject"
+                  name="subject"
+                />
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Write Your message"
+                ></textarea>
+                <button className="btn contact pointer" type="submit">
+                  Submit
+                </button>
               </form>
             </div>
           </div>
@@ -70,10 +73,7 @@ function Contact() {
                 <i class="fas fa-map-marker-alt"></i>{" "}
                 <span>Bangalore, India</span>
               </div>
-              <div class="hire__text font__icon">
-                <i class="fas fa-mobile-alt"></i>
-                <span>6203108867</span>
-              </div>
+
               <div class="hire__text font__icon">
                 <i class="far fa-envelope"></i>
                 <span>shivanshu.dev63@gmail.com</span>
@@ -98,12 +98,6 @@ function Contact() {
           <li>
             <a href="https://github.com/shivanshudev63" target="_blank">
               <i class="fab fa-github"></i>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://wa.me/916203108867" target="_blank">
-              <i class="fab fa-whatsapp"></i>
             </a>
           </li>
         </ul>
