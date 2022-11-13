@@ -45,7 +45,7 @@ function Project() {
 
           <div className="col__3">
             <a
-              href="https://shivanshudev.herokuapp.com/"
+              href="https://personal-website-shivanshudev63.vercel.app/"
               target="blank"
             >
               <div className="project__box pointer relative">
