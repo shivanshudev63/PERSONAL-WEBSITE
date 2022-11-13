@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer" style={{ padding: "10px 20px", zIndex: "100" }}>
-      <span
+      <p
         className="copyright"
         style={{
           lineHeight: "30px",
@@ -13,8 +13,10 @@ function Footer() {
           opacity: "0.75",
         }}
       >
-        Copyright © 2022 SD. All Rights Reserved.
-      </span>
+        All Rights Reserved. Developed by: Shivanshu Dev
+       
+      </p>
+     
     </div>
   );
 }

@@ -16,10 +16,37 @@ function Project() {
       </div>
       <div className="container">
         <div className="row">
+        <div className="col__3" >
+            <a
+              href="https://narayanjeeeducationaltrust.vercel.app/"
+              target="blank"
+            >
+              <div className="project__box pointer relative">
+                <div className="project__box__img pointer relative">
+                  <div className="project__img__box">
+                    <img src={Project1} alt="" className="project__img" />
+                  </div>
+                  <div className="mask__effect"></div>
+                </div>
+                <div className="project__meta absolute">
+                  <h5 className="project__text">REACT.js</h5>
+                  <h4 className="project__text">NEST(CLIENT) </h4>
+                  <a
+                    href="https://github.com/shivanshudev63/nest"
+                    target="blank"
+                    className="project__btn"
+                  >
+                    View Details
+                  </a>
+                </div>
+              </div>
+            </a>
+          </div>
+
           <div className="col__3">
             <a
               href="https://shivanshudev.herokuapp.com/"
-              target="_blank"
+              target="blank"
             >
               <div className="project__box pointer relative">
                 <div className="project__box__img pointer relative">
@@ -127,28 +154,6 @@ function Project() {
                 <h4 className="project__text">PING PONG GAME</h4>
                 <a
                   href="https://github.com/shivanshudev63/PING-PONG-GAME"
-                  className="project__btn"
-                  target="_blank"
-                >
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project1} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">HTML|CSS|JAVASCRIPT</h5>
-                <h4 className="project__text">SIMON GAME</h4>
-                <a
-                  href="https://github.com/shivanshudev63/SIMON-GAME"
                   className="project__btn"
                   target="_blank"
                 >
