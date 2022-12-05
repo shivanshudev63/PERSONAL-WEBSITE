@@ -16,7 +16,7 @@ function Project() {
       </div>
       <div className="container">
         <div className="row">
-        <div className="col__3" >
+        <div className="col__3">
             <a
               href="https://narayanjeeeducationaltrust.vercel.app/"
               target="blank"

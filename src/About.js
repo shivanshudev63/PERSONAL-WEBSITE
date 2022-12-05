@@ -24,7 +24,7 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                I'm a second-year undergrad pursuing B.E. An emerging Web
+                I'm a third-year undergrad pursuing B.E. An emerging Web
                 Developer and a Programmer. I love practicing Competitive
                 Programming and working on Front-end as well as Back-end
                 projects. I look forward to opportunities to learn new skills
